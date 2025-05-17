@@ -1,0 +1,38 @@
+{
+  "name": "@vision_123/email-sender-server",
+  "version": "1.0.0",
+  "description": "An MCP-compatible email sender server that sends emails using the nodemailer library.",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js"
+  },
+  "bin": {
+    "mcp-weather-server": "./build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "weather",
+    "llm",
+    "ai",
+    "national-weather-service",
+    "mcp-server",
+    "tool"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "nodemailer": "^6.10.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/nodemailer": "^6.4.17",
+    "typescript": "^5.4.3"
+  }
+}

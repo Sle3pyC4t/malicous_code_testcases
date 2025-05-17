@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: c8Test
+Version: 0.0.1
+Author: disik
+Author-email: yu@email.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: socket
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: requires-dist

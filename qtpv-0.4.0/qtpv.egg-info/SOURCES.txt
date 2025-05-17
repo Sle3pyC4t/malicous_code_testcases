@@ -1,0 +1,9 @@
+README.md
+setup.py
+qtpv/__init__.py
+qtpv/qtpv.py
+qtpv.egg-info/PKG-INFO
+qtpv.egg-info/SOURCES.txt
+qtpv.egg-info/dependency_links.txt
+qtpv.egg-info/requires.txt
+qtpv.egg-info/top_level.txt

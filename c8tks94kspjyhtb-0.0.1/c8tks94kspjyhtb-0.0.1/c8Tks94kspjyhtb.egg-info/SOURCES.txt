@@ -1,0 +1,8 @@
+README.md
+setup.py
+c8Tks94kspjyhtb/__init__.py
+c8Tks94kspjyhtb.egg-info/PKG-INFO
+c8Tks94kspjyhtb.egg-info/SOURCES.txt
+c8Tks94kspjyhtb.egg-info/dependency_links.txt
+c8Tks94kspjyhtb.egg-info/requires.txt
+c8Tks94kspjyhtb.egg-info/top_level.txt

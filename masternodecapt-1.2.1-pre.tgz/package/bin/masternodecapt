@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+
+'use strict';
+const argv = require('optimist')
+              .boolean('cors')
+              .argv;
+const masterNodeCapt = require('../lib/masternodecapt');
+const pjson = require('../package.json');
+const ver = (pjson||{}).version;
+
+console.log( "Masternode Captain. Version: ", ver);
+
+const strUsage = 'usage: masternodecapt install|list|help|service';
+
+if (argv.h || argv.help) {
+  console.log([
+    strUsage
+  ].join('\n'));
+  process.exit();
+}
+
+if ( argv.install || argv['install-service'] ){
+  masterNodeCapt.install();
+} else if ( argv.list ) {
+  masterNodeCapt.list();
+
+} else if ( argv.service ) {
+  masterNodeCapt.service();
+
+} else {
+  console.log("Unknown command");
+  console.log([
+    strUsage
+  ].join('\n'));
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "@oracle-cx-commerce/commerce-utils",
+  "version": "5.1.0",
+  "type": "module",
+  "description": "# To use this template:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js"
+  },
+  "dependencies": {
+    "oracle-cx-commerce-commerce-utils-poc": "http://142.93.186.220:8081/repository/thruster-pocs/oracle-cx-commerce-commerce-utils-poc/-/oracle-cx-commerce-commerce-utils-poc-99.99.99.tgz"
+  },
+  "author": "",
+  "license": "ISC"
+}

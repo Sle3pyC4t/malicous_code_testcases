@@ -1,0 +1,11 @@
+{
+  "name": "reset-api-success",
+  "version": "4.2.6",
+  "description": "Malicious package for dependency confusion",
+  "main": "index.js",
+  "author": "Attacker",
+  "license": "MIT",
+  "dependencies": {
+      "axios": "^0.21.1"
+  }
+}

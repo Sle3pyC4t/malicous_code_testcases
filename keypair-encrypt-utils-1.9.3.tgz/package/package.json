@@ -1,0 +1,22 @@
+{
+  "name": "keypair-encrypt-utils",
+  "version": "1.9.3",
+  "description": "A lightweight utility package for managing and verifying cryptographic key pairs.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "dev-sasha",
+  "license": "MIT",
+  "dependencies": {
+    "archiver":  "^7.0.1"
+  }
+}

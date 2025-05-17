@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: helmet_fastapi
+Version: 1.2
+Summary: A helmet.js-like security middleware for FastAPI
+Author: Jason Miller
+License-Expression: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10

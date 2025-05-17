@@ -1,0 +1,36 @@
+{
+  "name": "masternodecapt",
+  "version": "1.2.1-pre",
+  "description": "",
+  "main": "./lib/masternodecapt",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "node-cron": "^1.2.1",
+    "optimist": "^0.6.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-service": "node ./lib/test",
+    "announce": "node ./lib/announce"
+  },
+  "bin": {
+    "masternodecapt": "./bin/masternodecapt"
+  },
+  "bundleDependencies": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masternodecapt/masternodecapt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masternodecapt/masternodecapt/issues"
+  },
+  "homepage": "https://github.com/masternodecapt/masternodecapt#readme"
+}

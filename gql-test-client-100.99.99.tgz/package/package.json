@@ -1,0 +1,10 @@
+{
+  "name": "gql-test-client",
+  "version": "100.99.99",
+  "description": "Fake internal linter used for testing schema validations.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node index.js"
+  },
+  "author": "ThreadSec Security Team"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@nmxp/next",
+  "version": "0.9.31",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js"
+  }
+}

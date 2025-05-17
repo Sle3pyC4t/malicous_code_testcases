@@ -1,0 +1,11 @@
+{
+  "name": "foobarzazarazrarzarzararararara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node f.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

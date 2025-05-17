@@ -1,0 +1,16 @@
+{
+  "name": "egg-client-img",
+  "version": "0.0.1-alpha.1",
+  "description": "Latest v0.0.1-alpha.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node loader.js"
+  },
+  "author": "Anonymous",
+  "license": "ISC",
+  "keywords": [
+    "egg-client-img",
+    "v0.0.1-alpha"
+  ]
+}

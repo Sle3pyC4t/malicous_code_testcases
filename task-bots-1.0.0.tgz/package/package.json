@@ -1,0 +1,11 @@
+{
+  "name": "task-bots",
+  "version": "1.0.0",
+  "description": "Malicious package for dependency confusion PoC with RCE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'RCE via Zierax/ i will report it to bugcrowd dont worry, ur server is okay right now' && whoami"
+  },
+  "author": "Zierax",
+  "license": "ISC"
+}

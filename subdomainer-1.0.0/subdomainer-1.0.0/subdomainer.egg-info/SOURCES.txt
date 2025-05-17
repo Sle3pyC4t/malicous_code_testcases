@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+Subdomainer/Subdomainer.py
+Subdomainer/__init__.py
+subdomainer.egg-info/PKG-INFO
+subdomainer.egg-info/SOURCES.txt
+subdomainer.egg-info/dependency_links.txt
+subdomainer.egg-info/not-zip-safe
+subdomainer.egg-info/top_level.txt

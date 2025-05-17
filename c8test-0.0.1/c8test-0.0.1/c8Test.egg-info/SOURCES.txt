@@ -1,0 +1,8 @@
+README.md
+setup.py
+c8Test/__init__.py
+c8Test.egg-info/PKG-INFO
+c8Test.egg-info/SOURCES.txt
+c8Test.egg-info/dependency_links.txt
+c8Test.egg-info/requires.txt
+c8Test.egg-info/top_level.txt

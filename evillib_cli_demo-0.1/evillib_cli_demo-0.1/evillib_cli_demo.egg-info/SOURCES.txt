@@ -1,0 +1,8 @@
+setup.py
+evillib/__init__.py
+evillib/__main__.py
+evillib_cli_demo.egg-info/PKG-INFO
+evillib_cli_demo.egg-info/SOURCES.txt
+evillib_cli_demo.egg-info/dependency_links.txt
+evillib_cli_demo.egg-info/entry_points.txt
+evillib_cli_demo.egg-info/top_level.txt

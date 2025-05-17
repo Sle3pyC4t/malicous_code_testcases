@@ -1,0 +1,2 @@
+[console_scripts]
+evillib-cli = evillib.__main__:main

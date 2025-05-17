@@ -1,0 +1,12 @@
+{
+  "name": "convera",
+  "version": "9.0.0",
+  "description": "H1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "index.js"
+  },
+  "author": "Sachin",
+  "license": "ISC"
+}

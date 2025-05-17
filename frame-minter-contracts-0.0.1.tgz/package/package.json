@@ -1,0 +1,12 @@
+{
+  "name": "frame-minter-contracts",
+  "version": "0.0.1",
+  "description": "PoC by @zin_min_phyo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

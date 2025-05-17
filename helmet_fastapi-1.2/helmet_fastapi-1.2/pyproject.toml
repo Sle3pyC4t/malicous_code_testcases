@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling >= 1.26", "fastapi==0.115.2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "helmet_fastapi"
+version = "1.2"
+authors = [
+  { name="Jason Miller" },
+]
+description = "A helmet.js-like security middleware for FastAPI"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+

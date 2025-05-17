@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: c8Tks94kspjyhtb
+Version: 0.0.1
+Home-page: https://github.com/lio322-/c8Tks94kspjyhtb
+Author: disik
+Author-email: yu@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist

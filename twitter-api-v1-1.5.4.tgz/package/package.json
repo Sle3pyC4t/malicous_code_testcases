@@ -1,0 +1,25 @@
+{
+  "name": "twitter-api-v1",
+  "version": "1.5.4",
+  "description": "Javascript/Node.js client Library for Twitter API",
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "Twitter"
+  ],
+  "homepage": "https://bitbucket.org/twitter_api_client/client#readme",
+  "bugs": {
+    "url": "https://bitbucket.org/twitter_api_client/client/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://recruiting-devs-admin@bitbucket.org/twitter_api_client/client.git"
+  },
+  "license": "ISC",
+  "author": "Kevin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

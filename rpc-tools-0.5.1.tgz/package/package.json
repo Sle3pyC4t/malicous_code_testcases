@@ -1,0 +1,16 @@
+{
+  "name": "rpc-tools",
+  "version": "0.5.1",
+  "description": "Utility to encrypt and secure input formats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["hash", "node", "crypto"],
+  "author": "Tools Bot",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.30.0" 
+  }
+}

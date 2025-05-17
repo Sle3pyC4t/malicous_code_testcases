@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: NetPackat
+Version: 1.0.4
+Summary: Run Packat
+Author: Packed
+Author-email: oelfaesraali+3@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6

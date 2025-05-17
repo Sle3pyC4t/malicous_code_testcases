@@ -1,0 +1,29 @@
+{
+  "name": "babel-loader-fs",
+  "version": "1.0.0",
+  "description": "babel-loader-fs does not appear to be a publicly available or recognized Node.js module, and may be private, unpublished, or misnamed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://babel_new-admin@bitbucket.org/babel_new/babel_loader_new.git"
+  },
+  "keywords": [
+    "babel",
+    "node",
+    "loader"
+  ],
+  "author": "alexjohnn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/babel_new/babel_loader_new/issues"
+  },
+  "homepage": "https://bitbucket.org/babel_new/babel_loader_new#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.7"
+  }
+}

